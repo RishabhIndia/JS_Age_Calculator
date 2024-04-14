@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* card */
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.card{
+    padding: 20px 80px;
+    box-shadow: 0 0 10px rgba(249, 236, 236, 0.9);
+    border-radius: 15px;
+    background-color: white;
+    height: 100%;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color:#1D2426;
+    color: white;
+}
+h3{
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+div h3{
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+input{
+    padding: 8px;
+    margin: 15px 0px;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 5px;
+}
+.btn_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 1rem;
+    background-color: #1D2426;
+    color: white;
+}
+.result{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+    padding-top: 40px;
+}
